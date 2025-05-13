@@ -38,20 +38,12 @@ console.log(`Empty array of shoppingList: ` + JSON.stringify(shoppingList));
 
 shoppingList = ["apple", "banana", "orange", "grapefruit", "pineapple"];
 
-console.log();
-
 addItem("grape");
-
-console.log();
 
 removeLastItem(shoppingList);
 
-console.log();
-
 console.log("Log of items in shoppingList:");
 displayList(shoppingList);
-
-console.log();
 
 // Task 2: Filter and Search an Array
 
@@ -81,11 +73,7 @@ function filterItems(searchTerm) {
 
 modifiedAddItem("orange");
 
-console.log();
-
 modifiedAddItem("blueberry");
-
-console.log();
 
 filterItems("apple");
 
